@@ -10,6 +10,8 @@ Como Bridge.py utiliza el módulo `serial`, es necesario instalar la librería `
 
 Puedes instalarlo globalmente `pip install pyserial`
 
+Asignar puerto en Bridge.py `SERIAL_PORT = "COM3"`
+
 Y finalmente ejecutar el programa `python Bridge.py`
 
 Con eso es suficiente, aunque si lo deseas puedes ponerlo en un entorno virtual:
@@ -33,16 +35,16 @@ macOS / Linux
 
 `source venv/bin/activate`
 
-# 3. Instalar dependencias (PySerial)
+# 3. Instalar dependencia
 
 `pip install pyserial`
 
 
-# 4. Ejecutar el script principal (Bridge.py)
+# 4. Ejecutar el script principal
 Desde la raíz del proyecto:
 
 `python Bridge.py`
 
-# 5. Desactivar el entorno virtual (opcional)
+# 5. Desactivar el entorno virtual
 
 `deactivate`
