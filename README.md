@@ -3,25 +3,29 @@
 Pequeña y simple propuesta para visualizar un contador global de creditos estilo arcade.
 
 ![Ejemplo](/Proposal/Un-par-de-fichas-1-3.jpg)
+
 ![Diagrama](/Proposal/Un-par-de-fichas-2-3.jpg)
+
 ![Font](/Proposal/Un-par-de-fichas-3-3.jpg)
 
-Como Bridge.py utiliza el módulo `serial`, es necesario instalar la librería `pyserial`.
+# Ejecutar Bridge.py
 
-Puedes instalarlo globalmente `pip install pyserial`
+Bridge.py utiliza el módulo `serial`, es necesario instalar la librería `pyserial`.
 
-Asignar puerto en Bridge.py `SERIAL_PORT = "COM3"`
-
-Y finalmente ejecutar el programa `python Bridge.py`
+1. Puedes instalarlo globalmente `pip install pyserial`
+2. Asignar puerto de tu USB, en Bridge.py `SERIAL_PORT = "COM3"`
+3. Finalmente ejecutar el programa `python Bridge.py`
 
 Con eso es suficiente, aunque si lo deseas puedes ponerlo en un entorno virtual:
 
-# 1. Crear entorno virtual.
-En la raíz del proyecto, ejecutar:
+# Ejecutar Bridge.py en entorno virtual
 
-`./Bridge python -m venv venv`
+## 1. Crear entorno virtual.
+Desde la carpeta Bridge, ejecutar:
 
-# 2. Activar el entorno virtual
+`python -m venv venv`
+
+## 2. Activar el entorno virtual
 
 Windows cmd
 
@@ -35,16 +39,16 @@ macOS / Linux
 
 `source venv/bin/activate`
 
-# 3. Instalar dependencia
+## 3. Instalar dependencia
 
 `pip install pyserial`
 
 
-# 4. Ejecutar el script principal
+## 4. Ejecutar el script principal
 Desde la raíz del proyecto:
 
 `python Bridge.py`
 
-# 5. Desactivar el entorno virtual
+## 5. Desactivar el entorno virtual
 
 `deactivate`
